@@ -1,0 +1,25 @@
+.request-button {
+  padding: 10px 25px;
+  color: white;
+  background: var(--linear-gradiant);
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
+
+.request-button:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 991px) {
+  .request-button {
+    font-size: 14px;
+  }
+}

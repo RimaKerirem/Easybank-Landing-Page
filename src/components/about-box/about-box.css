@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box .box-title {
+  color: var(--dark-blue);
+  margin: 30px 0;
+  font-weight: 300;
+}
+
+.box .box-description {
+  color: var(--grayish-blue);
+}
+
+@media (max-width: 767px) {
+  .box {
+    align-items: center;
+  }
+}
